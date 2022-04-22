@@ -29,6 +29,13 @@
       <artifactId>bcprov-jdk15on</artifactId>
       <version>1.68</version>
     </dependency>
+           
+    <!-- https://sonatype.zendesk.com/agent/tickets/62001 -->
+    <dependency>
+      <groupId>jakarta.xml.soap</groupId>
+      <artifactId>jakarta.xml.soap-api</artifactId>
+      <version>1.4.2</version>
+    </dependency>
   </dependencies>
 
 </project>
