@@ -14,7 +14,7 @@ pipeline {
         stage('IQ Policy Evaluation') {
             steps {
                 nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: selectedApplication('local-iq-app'), 
-                    iqStage: 'build', iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '**/*.jar']]                
+                    iqStage: 'build', iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '**/*.jar']], enableDebugLogging: true                
             }
         }
     }
