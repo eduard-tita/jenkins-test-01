@@ -14,12 +14,8 @@ pipeline {
         }
         stage('IQ Policy Evaluation') {
             steps {
-                //nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: selectedApplication('local-iq-app'), 
-                //    iqStage: 'build', iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '**/*.jar']]
-                //, enableDebugLogging: true                
-                
                 nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: selectedApplication('local-iq-app'), 
-                    iqStage: 'build', iqScanPatterns: [[scanPattern: 'scan_nothing']]                
+                    iqStage: 'build', iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '**/*.jar']], enableDebugLogging: true                
             }
         }
     }
