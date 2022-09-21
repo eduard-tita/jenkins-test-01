@@ -18,7 +18,7 @@ pipeline {
                 sh 'java -version' 
                 nexusPolicyEvaluation failBuildOnNetworkError: false, 
                     iqApplication: 'iq-app-01', 
-                    iqOrganization: '14f91ffcb54e4f0d86a158deb383457f',
+//                     iqOrganization: '14f91ffcb54e4f0d86a158deb383457f',
                     iqStage: 'build',                     
                     iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '**/*.jar'], [scanPattern: '**/*.properties']],
                     enableDebugLogging: false
