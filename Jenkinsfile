@@ -22,7 +22,7 @@ pipeline {
                     iqStage: 'build',                     
 //                    iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '!module-2/pom.xml'], [scanPattern: '**/*.jar'], [scanPattern: '**/*.properties']],
                     iqScanPatterns: [[scanPattern: 'scan-nothing']],                    
-                    enableDebugLogging: false
+                    enableDebugLogging: true
             }
         }
     }
