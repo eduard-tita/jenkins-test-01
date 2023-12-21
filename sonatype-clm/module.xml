@@ -4,19 +4,19 @@
     <property name="clm.tool" value="gradle"/>
   </builderInfo>
   <consumedArtifacts>
-    <artifact id="ch.qos.logback:logback-core:1.2.3" pathname="/home/gradle/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar" monitored="true"/>
-    <artifact id="org.slf4j:log4j-over-slf4j:1.7.36" pathname="/home/gradle/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.36/2a753acda077203a4794f106871bb237501c9a53/log4j-over-slf4j-1.7.36.jar" monitored="true"/>
-    <artifact id="ch.qos.logback:logback-classic:1.2.3" pathname="/home/gradle/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar" monitored="true"/>
-    <artifact id="org.slf4j:slf4j-api:1.7.36" pathname="/home/gradle/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.36/6c62681a2f655b49963a5983b8b0950a6120ae14/slf4j-api-1.7.36.jar" monitored="true"/>
+    <artifact id="ch.qos.logback:logback-core:jar:1.2.3" pathname="/home/gradle/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar" monitored="true"/>
+    <artifact id="org.slf4j:log4j-over-slf4j:jar:1.7.36" pathname="/home/gradle/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.36/2a753acda077203a4794f106871bb237501c9a53/log4j-over-slf4j-1.7.36.jar" monitored="true"/>
+    <artifact id="ch.qos.logback:logback-classic:jar:1.2.3" pathname="/home/gradle/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar" monitored="true"/>
+    <artifact id="org.slf4j:slf4j-api:jar:1.7.36" pathname="/home/gradle/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.36/6c62681a2f655b49963a5983b8b0950a6120ae14/slf4j-api-1.7.36.jar" monitored="true"/>
   </consumedArtifacts>
   <dependencies>
-    <dependency id="ch.qos.logback:logback-classic:1.2.3" direct="true">
-      <dependency id="org.slf4j:slf4j-api:1.7.36"/>
-      <dependency id="ch.qos.logback:logback-core:1.2.3"/>
+    <dependency id="ch.qos.logback:logback-classic:jar:1.2.3" direct="true">
+      <dependency id="org.slf4j:slf4j-api:jar:1.7.36"/>
+      <dependency id="ch.qos.logback:logback-core:jar:1.2.3"/>
     </dependency>
-    <dependency id="org.slf4j:slf4j-api:1.7.36" direct="true"/>
-    <dependency id="org.slf4j:log4j-over-slf4j:1.7.36" direct="true">
-      <dependency id="org.slf4j:slf4j-api:1.7.36"/>
+    <dependency id="org.slf4j:slf4j-api:jar:1.7.36" direct="true"/>
+    <dependency id="org.slf4j:log4j-over-slf4j:jar:1.7.36" direct="true">
+      <dependency id="org.slf4j:slf4j-api:jar:1.7.36"/>
     </dependency>
   </dependencies>
 </module>
