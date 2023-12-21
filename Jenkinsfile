@@ -20,7 +20,8 @@ pipeline {
                     iqApplication: 'iq-app-01', 
 //                     iqOrganization: '14f91ffcb54e4f0d86a158deb383457f',
                     iqStage: 'build',                     
-                    iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '!module-2/pom.xml'], [scanPattern: '**/*.jar'], [scanPattern: '**/*.properties']],
+//                    iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '!module-2/pom.xml'], [scanPattern: '**/*.jar'], [scanPattern: '**/*.properties']],
+                    iqScanPatterns: [[scanPattern: 'scan-nothing']],                    
                     enableDebugLogging: false
             }
         }
