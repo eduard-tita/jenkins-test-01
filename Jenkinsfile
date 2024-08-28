@@ -8,9 +8,9 @@ pipeline {
                 maven 'Maven'
             }
             steps {
-                //sh 'mvn -B -DskipTests clean package dependency:copy-dependencies' 
-                sh 'java -version' 
-                sh 'mvn -B -DskipTests clean package'                 
+                sh 'java -version'
+                sh 'mvn -B -DskipTests clean package dependency:copy-dependencies'                 
+                //sh 'mvn -B -DskipTests clean package'                 
             }
         }
         stage('IQ Policy Evaluation') {
@@ -20,7 +20,7 @@ pipeline {
 //                    iqScanPatterns: [[scanPattern: '**'], [scanPattern: '!module-2/**/*.*']],                    
 //                    iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '!module-2/pom.xml']],                                        
 //                    iqScanPatterns: [[scanPattern: 'scan-nothing']],                    
-                    iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '!module-2/pom.xml'], [scanPattern: '**/*.jar'], [scanPattern: '**/*.properties']],
+                    iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '**/*.jar'], [scanPattern: '**/*.properties']],
                     enableDebugLogging: false,
                     callflow: [
                       enable: true
