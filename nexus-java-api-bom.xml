@@ -1,0 +1,1776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:70365227-930d-4f88-bc9a-3709b7c8d7ba" version="1" xmlns="http://cyclonedx.org/schema/bom/1.6">
+  <metadata>
+    <timestamp>2024-09-04T14:10:32Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>Sonatype Inc.</vendor>
+        <name>Nexus IQ Server</name>
+        <version>10732</version>
+      </tool>
+    </tools>
+    <component type="application" bom-ref="76d1a791-dc61-4c4f-8e45-1b120ae3ef24">
+      <group>com.sonatype.nexus</group>
+      <name>nexus-platform-api</name>
+      <version>5.2.5-SNAPSHOT</version>
+      <purl>pkg:maven/com.sonatype.nexus/nexus-platform-api@5.2.5-SNAPSHOT?type=jar</purl>
+    </component>
+    <properties>
+      <property name="Scan ID">70365227930d4f88bc9a3709b7c8d7ba</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="7093eebd-d132-4203-9f4e-4fe859b01390">
+      <group>org.ow2.asm</group>
+      <name>asm</name>
+      <version>9.7</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.ow2.asm/asm@9.7?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">073d7b3086e14beb604c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.ow2.asm:asm:jar:9.7</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="62c1f678-55ee-4037-b5f0-9d4db916e24f">
+      <group>com.github.package-url</group>
+      <name>packageurl-java</name>
+      <version>1.4.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.package-url/packageurl-java@1.4.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0a0d1009191c1cf6b04f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.github.package-url:packageurl-java:jar:1.4.1</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="fe8e13cf-4bdf-4fae-a4a6-b5f93f8e1d18">
+      <group>org.codehaus.groovy</group>
+      <name>groovy</name>
+      <version>2.4.21</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.codehaus.groovy/groovy@2.4.21?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0abbb8d83268f3243a57</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.codehaus.groovy:groovy:jar:2.4.21</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="d40c0790-70c9-459b-99ee-10a0d02e3d79">
+      <group>commons-codec</group>
+      <name>commons-codec</name>
+      <version>1.17.0</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-codec/commons-codec@1.17.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0dbe8eef6e14460e73da</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/commons-codec:commons-codec:jar:1.17.0</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="ea32c54b-170e-4e96-9889-acf2e4fa644b">
+      <group>com.thoughtworks.xstream</group>
+      <name>xstream</name>
+      <version>1.4.20</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.thoughtworks.xstream/xstream@1.4.20?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0e2315b8b2e95e9f2169</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.thoughtworks.xstream:xstream:jar:1.4.20</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="e5065e24-0929-465e-900f-5f2b5c4b39d8">
+      <group>org.apache.httpcomponents</group>
+      <name>httpclient</name>
+      <version>4.5.14</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1194890e6f56ec291776</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.5.14</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="7ad0aa89-b13b-489e-b698-6bb6f2532e9f">
+      <group>com.googlecode.javaewah</group>
+      <name>JavaEWAH</name>
+      <version>1.2.3</version>
+      <licenses>
+        <license>
+          <name>Generic-Open-Source-Clause</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.googlecode.javaewah/JavaEWAH@1.2.3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">13a27c856e0c8808cee9</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.googlecode.javaewah:JavaEWAH:jar:1.2.3</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="8889c34d-396a-4f8d-a132-8a806c7cb4f3">
+      <group>xpp3</group>
+      <name>xpp3_min</name>
+      <version>1.1.4c</version>
+      <licenses>
+        <license>
+          <name>XPP-1.2</name>
+        </license>
+        <license>
+          <name>XPP-1.1.1</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/xpp3/xpp3_min@1.1.4c?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">19d4e90b43059058f6e0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/xpp3:xpp3_min:jar:1.1.4c</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="0da5f800-6774-40fb-81b3-2525f2b2d673">
+      <group>org.apache.commons</group>
+      <name>commons-lang3</name>
+      <version>3.14.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.commons/commons-lang3@3.14.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1ed471194b02f2c6cb73</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.14.0</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="ca59b06f-7aae-4cd7-9c28-4baf1db43067">
+      <group>com.fasterxml.jackson.dataformat</group>
+      <name>jackson-dataformat-yaml</name>
+      <version>2.16.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.16.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">2033e2c5f531785d17f3</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.16.0</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="0e147745-edd8-4b37-b88b-b994a8dc48a0">
+      <group>com.google.code.findbugs</group>
+      <name>jsr305</name>
+      <version>3.0.2</version>
+      <licenses>
+        <license>
+          <id>CC-BY-2.5</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">25ea2e8b0c338a877313</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.google.code.findbugs:jsr305:jar:3.0.2</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="76428b8f-28d7-42b0-be31-b264de556b7c">
+      <group>org.spdx</group>
+      <name>spdx-jackson-store</name>
+      <version>1.1.9</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.spdx/spdx-jackson-store@1.1.9?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">2f68a058818ef99953f7</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.spdx:spdx-jackson-store:jar:1.1.9</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="953c7c0a-21e2-48e8-bbd8-59b0c25a6b4c">
+      <group>org.eclipse.jgit</group>
+      <name>org.eclipse.jgit</name>
+      <version>6.7.0.202309050840-r</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>EDL-1.0</name>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <name>Public Domain</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jgit/org.eclipse.jgit@6.7.0.202309050840-r?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">30599f446abe09ab51cf</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.eclipse.jgit:org.eclipse.jgit:jar:6.7.0.202309050840-r</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="ea266734-705c-4114-9ea6-e654b37668ea">
+      <group>com.ethlo.time</group>
+      <name>itu</name>
+      <version>1.10.2</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.ethlo.time/itu@1.10.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">320413cc72bbcaddf543</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.ethlo.time:itu:jar:1.10.2</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="998182d1-5e2f-4c4e-81bc-38910e07b578">
+      <group>com.neuvector</group>
+      <name>scanner</name>
+      <version>1.12</version>
+      <licenses>
+        <license>
+          <name>No Source License</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.neuvector/scanner@1.12?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">3271cb87e58327a71710</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.neuvector:scanner:jar:1.12</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="51a9729e-4c04-471d-b603-65ba99dd7aa6">
+      <group>de.schlichtherle.truezip</group>
+      <name>truezip-driver-zip</name>
+      <version>7.7.10</version>
+      <licenses>
+        <license>
+          <name>No Source License</name>
+        </license>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/de.schlichtherle.truezip/truezip-driver-zip@7.7.10?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">3a32db79c5bbc00fa1d6</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/de.schlichtherle.truezip:truezip-driver-zip:jar:7.7.10</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="d48f6c14-993e-41a9-977e-ffcf68e0828a">
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-databind</name>
+      <version>2.16.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.16.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">3a6b7f8ff7b30d518bbd</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.16.0</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="b7da84ec-2b22-4a88-bf2a-d576cee82d9c">
+      <group>org.yaml</group>
+      <name>snakeyaml</name>
+      <version>2.2</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.yaml/snakeyaml@2.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">3af797a25458550a16bf</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.yaml:snakeyaml:jar:2.2</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="c66158a9-140b-49db-b922-ad861a862f73">
+      <group>org.semver4j</group>
+      <name>semver4j</name>
+      <version>4.2.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.semver4j/semver4j@4.2.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">421dae655b758b31747d</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.semver4j:semver4j:jar:4.2.1</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="5885c58d-dfb6-4860-9829-9261b5aa8fb5">
+      <group>org.apache.commons</group>
+      <name>commons-compress</name>
+      <version>1.26.1</version>
+      <licenses>
+        <license>
+          <name>Public Domain</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.commons/commons-compress@1.26.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">44331c1130c370e726a2</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.apache.commons:commons-compress:jar:1.26.1</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="b9ad6f27-579c-44fc-a73e-0a1e40fbc9e0">
+      <group>org.zeroturnaround</group>
+      <name>zt-exec</name>
+      <version>1.12</version>
+      <licenses>
+        <license>
+          <name>Generic-Open-Source-Clause</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.zeroturnaround/zt-exec@1.12?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">51a8d135518365a169a8</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.zeroturnaround:zt-exec:jar:1.12</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="c828508f-0912-47ca-91f5-af26083bd611">
+      <group>org.apache.httpcomponents</group>
+      <name>httpcore</name>
+      <version>4.4.16</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">51cf043c87253c9f58b5</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.apache.httpcomponents:httpcore:jar:4.4.16</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="bf2ae14c-43cd-488e-ad88-0b428752c311">
+      <group>org.apache.commons</group>
+      <name>commons-collections4</name>
+      <version>4.4</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.commons/commons-collections4@4.4?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">62ebe7544cb7164d87e0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.apache.commons:commons-collections4:jar:4.4</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="3553d5a1-c96c-4520-9e0b-890e9c269c5f">
+      <group>org.apache.httpcomponents</group>
+      <name>httpmime</name>
+      <version>4.5.14</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.httpcomponents/httpmime@4.5.14?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">6662758a1f1cb1149cf9</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.apache.httpcomponents:httpmime:jar:4.5.14</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="4dd9987b-e7a5-4fb4-813e-ce0d3d9824d8">
+      <group>com.fasterxml.jackson.datatype</group>
+      <name>jackson-datatype-jsr310</name>
+      <version>2.16.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.16.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">77e3a27823f795d928b8</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.16.0</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="f83e0053-353d-48d7-b87f-4246e9b22399">
+      <group>de.schlichtherle.truezip</group>
+      <name>truezip-file</name>
+      <version>7.7.10</version>
+      <licenses>
+        <license>
+          <name>No Source License</name>
+        </license>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/de.schlichtherle.truezip/truezip-file@7.7.10?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">7964479227f865b9fe0e</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/de.schlichtherle.truezip:truezip-file:jar:7.7.10</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="a0ff83ae-86bf-4990-b670-775f3f0f4971">
+      <group>de.schlichtherle.truezip</group>
+      <name>truezip-driver-file</name>
+      <version>7.7.10</version>
+      <licenses>
+        <license>
+          <name>No Source License</name>
+        </license>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/de.schlichtherle.truezip/truezip-driver-file@7.7.10?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">7c85afecf13ca2426a5a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/de.schlichtherle.truezip:truezip-driver-file:jar:7.7.10</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="01fc57da-3289-400e-bc40-889a83846dc8">
+      <group>org.slf4j</group>
+      <name>slf4j-api</name>
+      <version>2.0.13</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/slf4j-api@2.0.13?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">80229737f704b121a318</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.slf4j:slf4j-api:jar:2.0.13</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="d589119d-a490-4fef-a788-b48dba761a98">
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-core</name>
+      <version>2.16.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.16.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">899e5cf01be55fbf094a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.fasterxml.jackson.core:jackson-core:jar:2.16.0</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="6bf12355-e157-4b80-ba58-7d46d69c824a">
+      <group>com.google.code.gson</group>
+      <name>gson</name>
+      <version>2.8.9</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.code.gson/gson@2.8.9?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">8a432c1d6825781e21a0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.google.code.gson:gson:jar:2.8.9</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="0eb8d159-18a4-4393-a4c7-89993d9b8dd0">
+      <group>org.tukaani</group>
+      <name>xz</name>
+      <version>1.5</version>
+      <licenses>
+        <license>
+          <name>Public Domain</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.tukaani/xz@1.5?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">9c64274b7dbb65288237</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.tukaani:xz:jar:1.5</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="74c4d3fa-29b3-421c-aa03-3e35721c799e">
+      <group>de.schlichtherle.truezip</group>
+      <name>truezip-driver-tar</name>
+      <version>7.7.10</version>
+      <licenses>
+        <license>
+          <name>No Source License</name>
+        </license>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/de.schlichtherle.truezip/truezip-driver-tar@7.7.10?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">9ff10971d3ea7827ec15</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/de.schlichtherle.truezip:truezip-driver-tar:jar:7.7.10</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="4dd6d5c0-d314-45fb-934c-f6f0e4617533">
+      <group>de.schlichtherle.truezip</group>
+      <name>truezip-kernel</name>
+      <version>7.7.10</version>
+      <licenses>
+        <license>
+          <name>No Source License</name>
+        </license>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/de.schlichtherle.truezip/truezip-kernel@7.7.10?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">a28219579e3fb3155e25</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/de.schlichtherle.truezip:truezip-kernel:jar:7.7.10</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="067f9bcb-0987-47d6-a68e-6b91bb9c3196">
+      <group>org.codehaus.woodstox</group>
+      <name>stax2-api</name>
+      <version>4.2.1</version>
+      <licenses>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">a3f7325c52240418c2ba</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.codehaus.woodstox:stax2-api:jar:4.2.1</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="10bbd235-0aa4-4b75-b4d3-836dbc798503">
+      <group>org.apache.maven</group>
+      <name>maven-model</name>
+      <version>3.9.6</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.maven/maven-model@3.9.6?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">ac9a1c8a8cfa36f3a548</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.apache.maven:maven-model:jar:3.9.6</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="200c8d4b-0b43-4d95-ad38-f467be3c4ec9">
+      <group>org.cyclonedx</group>
+      <name>cyclonedx-core-java</name>
+      <version>9.0.4</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.cyclonedx/cyclonedx-core-java@9.0.4?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">bdde1c0e14fc992c6c13</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.cyclonedx:cyclonedx-core-java:jar:9.0.4</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="bb4c753f-98d1-4a15-ad18-c909dd01e8a2">
+      <group>org.codehaus.plexus</group>
+      <name>plexus-utils</name>
+      <version>3.5.1</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.codehaus.plexus/plexus-utils@3.5.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">c6bfb17c97ecc8863e88</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.codehaus.plexus:plexus-utils:jar:3.5.1</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="56607ece-219a-482a-bcb8-4c33175c5159">
+      <group>com.fasterxml.woodstox</group>
+      <name>woodstox-core</name>
+      <version>6.5.1</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.woodstox/woodstox-core@6.5.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">c6e52e84fe959e69a243</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.fasterxml.woodstox:woodstox-core:jar:6.5.1</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="eec32a08-15bf-4ee5-8bc8-f6104c2e8d52">
+      <group>com.networknt</group>
+      <name>json-schema-validator</name>
+      <version>1.4.2</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.networknt/json-schema-validator@1.4.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">c827fea59d5acb2ae4a4</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.networknt:json-schema-validator:jar:1.4.2</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="bbf99447-183c-4340-a2e2-a630986d173e">
+      <group>org.sonatype.aether</group>
+      <name>aether-util</name>
+      <version>1.13.1</version>
+      <licenses>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.sonatype.aether/aether-util@1.13.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">c8487ceb499b9ced9669</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.sonatype.aether:aether-util:jar:1.13.1</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="e97f01f2-b3a7-4920-8204-fbc3b458dfcd">
+      <group>org.tomlj</group>
+      <name>tomlj</name>
+      <version>1.0.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.tomlj/tomlj@1.0.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">d1922fb5e672e04d8e8d</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.tomlj:tomlj:jar:1.0.0</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="14476499-8c23-4de9-9a96-f30c6618cb8e">
+      <group>org.slf4j</group>
+      <name>jcl-over-slf4j</name>
+      <version>1.7.36</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">d877e195a05aca4a2f1a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.slf4j:jcl-over-slf4j:jar:1.7.36</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="372d6412-2776-448c-875d-8d62b8e7ea3f">
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-annotations</name>
+      <version>2.16.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.16.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">dc30995f7428c0a405eb</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.fasterxml.jackson.core:jackson-annotations:jar:2.16.0</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="261389ec-0234-45eb-8db5-f68ef5d5f4d8">
+      <group>org.json</group>
+      <name>json</name>
+      <version>20231013</version>
+      <licenses>
+        <license>
+          <name>No Source License</name>
+        </license>
+        <license>
+          <name>Public Domain</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.json/json@20231013?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e22e0c040fe16f04ffdb</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.json:json:jar:20231013</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="2ad2e71f-6e6e-4fdb-9851-7830c48df50c">
+      <group>org.antlr</group>
+      <name>antlr4-runtime</name>
+      <version>4.7.2</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.antlr/antlr4-runtime@4.7.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e27d8ab4f984f9d186f5</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.antlr:antlr4-runtime:jar:4.7.2</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="01e0a60e-765e-4113-90fb-2f1fd7d5d729">
+      <group>org.ow2.asm</group>
+      <name>asm-tree</name>
+      <version>9.7</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.ow2.asm/asm-tree@9.7?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e446a17b175bfb733b87</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.ow2.asm:asm-tree:jar:9.7</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="87553d95-31b9-4d5a-a55f-b9a874fabb27">
+      <group>org.sonatype.aether</group>
+      <name>aether-api</name>
+      <version>1.13.1</version>
+      <licenses>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.sonatype.aether/aether-api@1.13.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e48292eae5e14ec44978</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.sonatype.aether:aether-api:jar:1.13.1</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="48b4ca16-6147-43d1-a6cc-1179b21fc273">
+      <group>com.fasterxml.jackson.dataformat</group>
+      <name>jackson-dataformat-xml</name>
+      <version>2.16.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml@2.16.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">f3cdb002e0f2f30ad9c5</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.16.0</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="20f9be88-a641-436c-a5f2-9c0b7be4139b">
+      <group>org.spdx</group>
+      <name>java-spdx-library</name>
+      <version>1.1.11</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.spdx/java-spdx-library@1.1.11?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">f438688f8eb61f975c4c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.spdx:java-spdx-library:jar:1.1.11</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="9eb6f9e4-e6b4-4a3e-938c-955e8eb14bba">
+      <group>org.jsoup</group>
+      <name>jsoup</name>
+      <version>1.15.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jsoup/jsoup@1.15.3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">f6e1d8a8819f854b681c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.jsoup:jsoup:jar:1.15.3</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="45cb3683-d841-4cdb-b3cd-5293b948aee4">
+      <group>org.apache.maven</group>
+      <name>maven-artifact</name>
+      <version>3.9.6</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.maven/maven-artifact@3.9.6?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">fb0979832c10c1a25d03</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/org.apache.maven:maven-artifact:jar:3.9.6</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="fd41c1d4-5451-449d-a139-9169a754eb91">
+      <group>com.sonatype.insight.brain</group>
+      <name>insight-brain-client</name>
+      <version>1.183.0-SNAPSHOT</version>
+      <purl>pkg:maven/com.sonatype.insight.brain/insight-brain-client@1.183.0-SNAPSHOT?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">dbf12d81e5fe361244c5</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.brain:insight-brain-client:jar:1.183.0-SNAPSHOT</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="8c4c74f3-1edc-469f-a691-98b1f63bee39">
+      <group>com.sonatype.insight.brain</group>
+      <name>insight-json-store</name>
+      <version>1.183.0-SNAPSHOT</version>
+      <purl>pkg:maven/com.sonatype.insight.brain/insight-json-store@1.183.0-SNAPSHOT?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">b4dbb26d2dac6a8eb4c6</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.brain:insight-json-store:jar:1.183.0-SNAPSHOT</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="e0e5284c-4b0f-41f5-b8a0-c0b0cf2cbbfe">
+      <group>com.sonatype.clm</group>
+      <name>com.sonatype.clm.dto.model</name>
+      <version>1.58.14-01</version>
+      <purl>pkg:maven/com.sonatype.clm/com.sonatype.clm.dto.model@1.58.14-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">118222fc014f2b18e545</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.clm:com.sonatype.clm.dto.model:jar:1.58.14-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="76679535-2951-4af0-b747-f59485d221d5">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-client-utils</name>
+      <version>2.37.10-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-client-utils@2.37.10-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">96c6a9dee7fb911cd454</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-client-utils:jar:2.37.10-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="356b2410-7274-4962-bf83-9b356a44965b">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-scanner-core</name>
+      <version>2.37.10-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-scanner-core@2.37.10-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">c62b0611964b8a8c6587</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-scanner-core:jar:2.37.10-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="d4609d48-3f5d-4372-b3cf-f672f1679580">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-scanner-archive</name>
+      <version>2.37.10-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-scanner-archive@2.37.10-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">51bde1a7e823298a6818</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-scanner-archive:jar:2.37.10-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="4881d6e3-83e8-4030-a708-0c3449cefb1c">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-scanner-manifest-model</name>
+      <version>2.37.10-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-scanner-manifest-model@2.37.10-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">ab72633c707198fce3ea</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-scanner-manifest-model:jar:2.37.10-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="b0b39609-4074-4145-9632-2e46b248715c">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-scanner-tools</name>
+      <version>2.37.10-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-scanner-tools@2.37.10-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">d4b627d39213f59c0e0c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-scanner-tools:jar:2.37.10-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="fb5563a8-38d2-4608-ac38-14f41a00fe21">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-archive-utils</name>
+      <version>2.37.10-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-archive-utils@2.37.10-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">6c3470303d5297beb959</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-archive-utils:jar:2.37.10-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="33289e25-ec16-4d99-a899-da1e22c90714">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-scanner-hashing</name>
+      <version>1.22.0-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-scanner-hashing@1.22.0-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">5bbc8591a6a13af12742</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-scanner-hashing:jar:1.22.0-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="276f889c-d3fc-46d5-8baf-b976dee8055f">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-scanner-hashing-asm60</name>
+      <version>1.22.0-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-scanner-hashing-asm60@1.22.0-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">c337e08d2b5fb252826f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-scanner-hashing-asm60:jar:1.22.0-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="2d028312-c1f1-4f0a-ad37-8836529f9196">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-scanner-hashing-asm71</name>
+      <version>1.22.0-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-scanner-hashing-asm71@1.22.0-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">857dac6784fadbd031ad</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-scanner-hashing-asm71:jar:1.22.0-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="da46d40a-c847-4358-ba82-e4d535b4c422">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-scanner-model</name>
+      <version>2.37.10-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-scanner-model@2.37.10-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1af00987e449a9a24da1</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-scanner-model:jar:2.37.10-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="408fdd25-e363-458e-bbb4-76253e2755e1">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-scanner-model-io</name>
+      <version>2.37.10-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-scanner-model-io@2.37.10-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">931a80dbd16f8a66fad0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-scanner-model-io:jar:2.37.10-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="2e381f12-da36-44db-905b-f42d82acdb68">
+      <group>com.sonatype.insight.scan</group>
+      <name>insight-module-model</name>
+      <version>2.37.10-01</version>
+      <purl>pkg:maven/com.sonatype.insight.scan/insight-module-model@2.37.10-01?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">51d7f11098c6a46914a6</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.insight.scan:insight-module-model:jar:2.37.10-01</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+    <component type="library" bom-ref="d0cbdc1e-7afd-4948-ac28-e6912d6c4b74">
+      <group>com.sonatype.nexus</group>
+      <name>nexus-git-utils</name>
+      <version>1.58.2-SNAPSHOT</version>
+      <purl>pkg:maven/com.sonatype.nexus/nexus-git-utils@1.58.2-SNAPSHOT?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">81dfcb182b3da60079b2</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Package Manifest</property>
+      </properties>
+      <evidence>
+        <occurrences>
+          <occurrence>
+            <location>com.sonatype.nexus:nexus-platform-api:jar:5.2.5-SNAPSHOT/com.sonatype.nexus:nexus-git-utils:jar:1.58.2-SNAPSHOT</location>
+          </occurrence>
+        </occurrences>
+      </evidence>
+    </component>
+  </components>
+  <externalReferences>
+    <reference type="bom">
+      <url>https://sonatype.sonatype.app/platform/ui/links/application/nexus-java-api/report/70365227930d4f88bc9a3709b7c8d7ba</url>
+      <comment>IQ Report</comment>
+    </reference>
+  </externalReferences>
+  <dependencies>
+    <dependency ref="76d1a791-dc61-4c4f-8e45-1b120ae3ef24">
+      <dependency ref="3553d5a1-c96c-4520-9e0b-890e9c269c5f"/>
+      <dependency ref="408fdd25-e363-458e-bbb4-76253e2755e1"/>
+      <dependency ref="fd41c1d4-5451-449d-a139-9169a754eb91"/>
+      <dependency ref="da46d40a-c847-4358-ba82-e4d535b4c422"/>
+      <dependency ref="76679535-2951-4af0-b747-f59485d221d5"/>
+      <dependency ref="d4609d48-3f5d-4372-b3cf-f672f1679580"/>
+      <dependency ref="2e381f12-da36-44db-905b-f42d82acdb68"/>
+      <dependency ref="d0cbdc1e-7afd-4948-ac28-e6912d6c4b74"/>
+      <dependency ref="356b2410-7274-4962-bf83-9b356a44965b"/>
+    </dependency>
+    <dependency ref="3553d5a1-c96c-4520-9e0b-890e9c269c5f"/>
+    <dependency ref="408fdd25-e363-458e-bbb4-76253e2755e1">
+      <dependency ref="8889c34d-396a-4f8d-a132-8a806c7cb4f3"/>
+    </dependency>
+    <dependency ref="8889c34d-396a-4f8d-a132-8a806c7cb4f3"/>
+    <dependency ref="fd41c1d4-5451-449d-a139-9169a754eb91">
+      <dependency ref="01fc57da-3289-400e-bc40-889a83846dc8"/>
+      <dependency ref="bbf99447-183c-4340-a2e2-a630986d173e"/>
+      <dependency ref="8c4c74f3-1edc-469f-a691-98b1f63bee39"/>
+      <dependency ref="e0e5284c-4b0f-41f5-b8a0-c0b0cf2cbbfe"/>
+      <dependency ref="4dd9987b-e7a5-4fb4-813e-ce0d3d9824d8"/>
+    </dependency>
+    <dependency ref="01fc57da-3289-400e-bc40-889a83846dc8"/>
+    <dependency ref="bbf99447-183c-4340-a2e2-a630986d173e">
+      <dependency ref="87553d95-31b9-4d5a-a55f-b9a874fabb27"/>
+    </dependency>
+    <dependency ref="87553d95-31b9-4d5a-a55f-b9a874fabb27"/>
+    <dependency ref="8c4c74f3-1edc-469f-a691-98b1f63bee39">
+      <dependency ref="d589119d-a490-4fef-a788-b48dba761a98"/>
+      <dependency ref="d48f6c14-993e-41a9-977e-ffcf68e0828a"/>
+    </dependency>
+    <dependency ref="d589119d-a490-4fef-a788-b48dba761a98"/>
+    <dependency ref="d48f6c14-993e-41a9-977e-ffcf68e0828a"/>
+    <dependency ref="e0e5284c-4b0f-41f5-b8a0-c0b0cf2cbbfe"/>
+    <dependency ref="4dd9987b-e7a5-4fb4-813e-ce0d3d9824d8">
+      <dependency ref="372d6412-2776-448c-875d-8d62b8e7ea3f"/>
+    </dependency>
+    <dependency ref="372d6412-2776-448c-875d-8d62b8e7ea3f"/>
+    <dependency ref="da46d40a-c847-4358-ba82-e4d535b4c422"/>
+    <dependency ref="76679535-2951-4af0-b747-f59485d221d5">
+      <dependency ref="e5065e24-0929-465e-900f-5f2b5c4b39d8"/>
+      <dependency ref="14476499-8c23-4de9-9a96-f30c6618cb8e"/>
+    </dependency>
+    <dependency ref="e5065e24-0929-465e-900f-5f2b5c4b39d8">
+      <dependency ref="c828508f-0912-47ca-91f5-af26083bd611"/>
+      <dependency ref="d40c0790-70c9-459b-99ee-10a0d02e3d79"/>
+    </dependency>
+    <dependency ref="c828508f-0912-47ca-91f5-af26083bd611"/>
+    <dependency ref="d40c0790-70c9-459b-99ee-10a0d02e3d79"/>
+    <dependency ref="14476499-8c23-4de9-9a96-f30c6618cb8e"/>
+    <dependency ref="d4609d48-3f5d-4372-b3cf-f672f1679580">
+      <dependency ref="4881d6e3-83e8-4030-a708-0c3449cefb1c"/>
+      <dependency ref="b0b39609-4074-4145-9632-2e46b248715c"/>
+      <dependency ref="fb5563a8-38d2-4608-ac38-14f41a00fe21"/>
+      <dependency ref="33289e25-ec16-4d99-a899-da1e22c90714"/>
+      <dependency ref="ea32c54b-170e-4e96-9889-acf2e4fa644b"/>
+      <dependency ref="200c8d4b-0b43-4d95-ad38-f467be3c4ec9"/>
+      <dependency ref="20f9be88-a641-436c-a5f2-9c0b7be4139b"/>
+      <dependency ref="76428b8f-28d7-42b0-be31-b264de556b7c"/>
+      <dependency ref="62c1f678-55ee-4037-b5f0-9d4db916e24f"/>
+      <dependency ref="6bf12355-e157-4b80-ba58-7d46d69c824a"/>
+      <dependency ref="10bbd235-0aa4-4b75-b4d3-836dbc798503"/>
+      <dependency ref="e97f01f2-b3a7-4920-8204-fbc3b458dfcd"/>
+      <dependency ref="ca59b06f-7aae-4cd7-9c28-4baf1db43067"/>
+      <dependency ref="0da5f800-6774-40fb-81b3-2525f2b2d673"/>
+      <dependency ref="998182d1-5e2f-4c4e-81bc-38910e07b578"/>
+      <dependency ref="c66158a9-140b-49db-b922-ad861a862f73"/>
+    </dependency>
+    <dependency ref="4881d6e3-83e8-4030-a708-0c3449cefb1c"/>
+    <dependency ref="b0b39609-4074-4145-9632-2e46b248715c">
+      <dependency ref="fe8e13cf-4bdf-4fae-a4a6-b5f93f8e1d18"/>
+      <dependency ref="45cb3683-d841-4cdb-b3cd-5293b948aee4"/>
+    </dependency>
+    <dependency ref="fe8e13cf-4bdf-4fae-a4a6-b5f93f8e1d18"/>
+    <dependency ref="45cb3683-d841-4cdb-b3cd-5293b948aee4"/>
+    <dependency ref="fb5563a8-38d2-4608-ac38-14f41a00fe21">
+      <dependency ref="f83e0053-353d-48d7-b87f-4246e9b22399"/>
+      <dependency ref="51a9729e-4c04-471d-b603-65ba99dd7aa6"/>
+      <dependency ref="a0ff83ae-86bf-4990-b670-775f3f0f4971"/>
+      <dependency ref="74c4d3fa-29b3-421c-aa03-3e35721c799e"/>
+      <dependency ref="5885c58d-dfb6-4860-9829-9261b5aa8fb5"/>
+    </dependency>
+    <dependency ref="f83e0053-353d-48d7-b87f-4246e9b22399">
+      <dependency ref="4dd6d5c0-d314-45fb-934c-f6f0e4617533"/>
+    </dependency>
+    <dependency ref="4dd6d5c0-d314-45fb-934c-f6f0e4617533"/>
+    <dependency ref="51a9729e-4c04-471d-b603-65ba99dd7aa6"/>
+    <dependency ref="a0ff83ae-86bf-4990-b670-775f3f0f4971"/>
+    <dependency ref="74c4d3fa-29b3-421c-aa03-3e35721c799e">
+      <dependency ref="0eb8d159-18a4-4393-a4c7-89993d9b8dd0"/>
+    </dependency>
+    <dependency ref="0eb8d159-18a4-4393-a4c7-89993d9b8dd0"/>
+    <dependency ref="5885c58d-dfb6-4860-9829-9261b5aa8fb5"/>
+    <dependency ref="33289e25-ec16-4d99-a899-da1e22c90714">
+      <dependency ref="276f889c-d3fc-46d5-8baf-b976dee8055f"/>
+      <dependency ref="2d028312-c1f1-4f0a-ad37-8836529f9196"/>
+      <dependency ref="7093eebd-d132-4203-9f4e-4fe859b01390"/>
+      <dependency ref="01e0a60e-765e-4113-90fb-2f1fd7d5d729"/>
+    </dependency>
+    <dependency ref="276f889c-d3fc-46d5-8baf-b976dee8055f"/>
+    <dependency ref="2d028312-c1f1-4f0a-ad37-8836529f9196"/>
+    <dependency ref="7093eebd-d132-4203-9f4e-4fe859b01390"/>
+    <dependency ref="01e0a60e-765e-4113-90fb-2f1fd7d5d729"/>
+    <dependency ref="ea32c54b-170e-4e96-9889-acf2e4fa644b"/>
+    <dependency ref="200c8d4b-0b43-4d95-ad38-f467be3c4ec9">
+      <dependency ref="bf2ae14c-43cd-488e-ad88-0b428752c311"/>
+      <dependency ref="48b4ca16-6147-43d1-a6cc-1179b21fc273"/>
+      <dependency ref="eec32a08-15bf-4ee5-8bc8-f6104c2e8d52"/>
+    </dependency>
+    <dependency ref="bf2ae14c-43cd-488e-ad88-0b428752c311"/>
+    <dependency ref="48b4ca16-6147-43d1-a6cc-1179b21fc273">
+      <dependency ref="067f9bcb-0987-47d6-a68e-6b91bb9c3196"/>
+      <dependency ref="56607ece-219a-482a-bcb8-4c33175c5159"/>
+    </dependency>
+    <dependency ref="067f9bcb-0987-47d6-a68e-6b91bb9c3196"/>
+    <dependency ref="56607ece-219a-482a-bcb8-4c33175c5159"/>
+    <dependency ref="eec32a08-15bf-4ee5-8bc8-f6104c2e8d52">
+      <dependency ref="ea266734-705c-4114-9ea6-e654b37668ea"/>
+    </dependency>
+    <dependency ref="ea266734-705c-4114-9ea6-e654b37668ea"/>
+    <dependency ref="20f9be88-a641-436c-a5f2-9c0b7be4139b">
+      <dependency ref="9eb6f9e4-e6b4-4a3e-938c-955e8eb14bba"/>
+      <dependency ref="0e147745-edd8-4b37-b88b-b994a8dc48a0"/>
+    </dependency>
+    <dependency ref="9eb6f9e4-e6b4-4a3e-938c-955e8eb14bba"/>
+    <dependency ref="0e147745-edd8-4b37-b88b-b994a8dc48a0"/>
+    <dependency ref="76428b8f-28d7-42b0-be31-b264de556b7c">
+      <dependency ref="261389ec-0234-45eb-8db5-f68ef5d5f4d8"/>
+    </dependency>
+    <dependency ref="261389ec-0234-45eb-8db5-f68ef5d5f4d8"/>
+    <dependency ref="62c1f678-55ee-4037-b5f0-9d4db916e24f"/>
+    <dependency ref="6bf12355-e157-4b80-ba58-7d46d69c824a"/>
+    <dependency ref="10bbd235-0aa4-4b75-b4d3-836dbc798503">
+      <dependency ref="bb4c753f-98d1-4a15-ad18-c909dd01e8a2"/>
+    </dependency>
+    <dependency ref="bb4c753f-98d1-4a15-ad18-c909dd01e8a2"/>
+    <dependency ref="e97f01f2-b3a7-4920-8204-fbc3b458dfcd">
+      <dependency ref="2ad2e71f-6e6e-4fdb-9851-7830c48df50c"/>
+    </dependency>
+    <dependency ref="2ad2e71f-6e6e-4fdb-9851-7830c48df50c"/>
+    <dependency ref="ca59b06f-7aae-4cd7-9c28-4baf1db43067">
+      <dependency ref="b7da84ec-2b22-4a88-bf2a-d576cee82d9c"/>
+    </dependency>
+    <dependency ref="b7da84ec-2b22-4a88-bf2a-d576cee82d9c"/>
+    <dependency ref="0da5f800-6774-40fb-81b3-2525f2b2d673"/>
+    <dependency ref="998182d1-5e2f-4c4e-81bc-38910e07b578"/>
+    <dependency ref="c66158a9-140b-49db-b922-ad861a862f73"/>
+    <dependency ref="2e381f12-da36-44db-905b-f42d82acdb68"/>
+    <dependency ref="d0cbdc1e-7afd-4948-ac28-e6912d6c4b74">
+      <dependency ref="953c7c0a-21e2-48e8-bbd8-59b0c25a6b4c"/>
+      <dependency ref="b9ad6f27-579c-44fc-a73e-0a1e40fbc9e0"/>
+    </dependency>
+    <dependency ref="953c7c0a-21e2-48e8-bbd8-59b0c25a6b4c">
+      <dependency ref="7ad0aa89-b13b-489e-b698-6bb6f2532e9f"/>
+    </dependency>
+    <dependency ref="7ad0aa89-b13b-489e-b698-6bb6f2532e9f"/>
+    <dependency ref="b9ad6f27-579c-44fc-a73e-0a1e40fbc9e0"/>
+    <dependency ref="356b2410-7274-4962-bf83-9b356a44965b"/>
+  </dependencies>
+</bom>
