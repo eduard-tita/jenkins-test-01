@@ -20,7 +20,12 @@ pipeline {
 //                    iqScanPatterns: [[scanPattern: '**'], [scanPattern: '!module-2/**/*.*']],                    
 //                    iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '!module-2/pom.xml']],                                        
 //                    iqScanPatterns: [[scanPattern: 'scan-nothing']],                    
-                    iqScanPatterns: [[scanPattern: '**/pom.xml'], [scanPattern: '**/*.jar'], [scanPattern: '**/*.properties'], [scanPattern: 'nexus-java-api-bom.xml'],
+                    iqScanPatterns: [
+                        [scanPattern: '**/pom.xml'], 
+                        [scanPattern: '**/*.jar'], 
+                        [scanPattern: '**/*.properties'], 
+                        [scanPattern: 'nexus-java-api-bom.xml']
+                    ],
                     enableDebugLogging: false,
                     callflow: [
                       enable: true
