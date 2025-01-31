@@ -1,3 +1,5 @@
+def result
+
 pipeline {
     agent any
     
@@ -17,7 +19,7 @@ pipeline {
             steps {
                 script {                    
                     catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                        nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: 'iq-app-01', iqStage: 'build',                     
+                        result = nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: 'iq-app-01', iqStage: 'build',                     
                             iqScanPatterns: [
                                 [scanPattern: '**/pom.xml'], 
                                 [scanPattern: '**/*.jar'], 
@@ -34,7 +36,8 @@ pipeline {
         }
         stage('After IQ Policy Evaluation') {
             steps {                
-                echo "Env Scan ID: ${env.SONATYPE_IQ_SCAN_ID} |"
+                echo "Scan ID: ${result.scanId}"
+                echo "Env Scan ID: ${env.SONATYPE_IQ_SCAN_ID}"
             }
         }
     }
