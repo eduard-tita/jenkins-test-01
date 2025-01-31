@@ -16,7 +16,6 @@ pipeline {
         stage('IQ Policy Evaluation') {
             steps {
                 script {
-                    java -version
                     def result = nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: 'iq-app-01', iqStage: 'build',                     
                         iqScanPatterns: [
                             [scanPattern: '**/pom.xml'], 
