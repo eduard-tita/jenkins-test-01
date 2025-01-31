@@ -15,19 +15,21 @@ pipeline {
         }
         stage('IQ Policy Evaluation') {
             steps {
-                sh 'java -version' 
-                def result = nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: 'iq-app-01', iqStage: 'build',                     
-                    iqScanPatterns: [
-                        [scanPattern: '**/pom.xml'], 
-                        [scanPattern: '**/*.jar'], 
-                        [scanPattern: '**/*.properties'], 
-                        [scanPattern: 'nexus-java-api-bom.xml']
-                    ],
-                    enableDebugLogging: false,
-                    callflow: [
-                      enable: true
-                    ]
-                echo "Scan ID: ${result.scanId} |"
+                script {
+                    java -version
+                    def result = nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: 'iq-app-01', iqStage: 'build',                     
+                        iqScanPatterns: [
+                            [scanPattern: '**/pom.xml'], 
+                            [scanPattern: '**/*.jar'], 
+                            [scanPattern: '**/*.properties'], 
+                            [scanPattern: 'nexus-java-api-bom.xml']
+                        ],
+                        enableDebugLogging: false,
+                        callflow: [
+                          enable: true
+                        ]
+                    echo "Scan ID: ${result.scanId} |"
+                }
                 echo "Env Scan ID: ${env.SONATYPE_IQ_SCAN_ID} |"
             }
         }
