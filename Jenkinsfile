@@ -1,5 +1,3 @@
-def result
-
 pipeline {
     agent any
     
@@ -18,8 +16,9 @@ pipeline {
         stage('IQ Policy Evaluation') {
             steps {
                 script {                    
-                    catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                        result = nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: 'iq-app-01', iqStage: 'build',                     
+                    // catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    try {
+                        def result = nexusPolicyEvaluation failBuildOnNetworkError: false, iqApplication: 'iq-app-01', iqStage: 'build',                     
                             iqScanPatterns: [
                                 [scanPattern: '**/pom.xml'], 
                                 [scanPattern: '**/*.jar'], 
@@ -30,13 +29,16 @@ pipeline {
                             callflow: [
                               enable: true
                             ]                        
-                    }                                        
+                        echo "result: ${result}"
+                    } catch (error) {
+                        def result = error.policyEvaluation   
+                        echo "result on exception: ${result}"
+                    }
                 }
             }
         }
         stage('After IQ Policy Evaluation') {
             steps {                
-                echo "Scan ID: ${result.scanId}"
                 echo "Env Scan ID: ${env.SONATYPE_IQ_SCAN_ID}"
             }
         }
@@ -44,6 +46,7 @@ pipeline {
     
     post {
         always {
+            echo "Env Scan ID: ${env.SONATYPE_IQ_SCAN_ID}"
             deleteDir()
         }
     }
