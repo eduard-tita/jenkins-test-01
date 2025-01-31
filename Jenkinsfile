@@ -35,6 +35,7 @@ pipeline {
                         def result = error.policyEvaluation   
                         echo "result on exception: ${result}"
                         echo "Scan ID: ${result.scanId}"
+                        env.custom_var = result.scanId
                     }
                 }
             }
@@ -49,6 +50,7 @@ pipeline {
     post {
         always {
             echo "Env Scan ID: ${env.SONATYPE_IQ_SCAN_ID}"
+            echo "Env custom_var: ${env.custom_var}"
             deleteDir()
         }
     }
