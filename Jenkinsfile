@@ -24,11 +24,11 @@ pipeline {
                                 [scanPattern: '**/*.jar'], 
                                 [scanPattern: '**/*.properties'], 
                                 [scanPattern: 'nexus-java-api-bom.xml']
-                            ],
-                            enableDebugLogging: false,
-                            callflow: [
-                              enable: true
-                            ]                        
+                            ]
+                            // callflow: [
+                            //   enable: true
+                            // ],
+                            // enableDebugLogging: false
                         echo "result: ${result}"
                     } catch (error) {
                         def result = error.policyEvaluation   
