@@ -30,9 +30,11 @@ pipeline {
                             // ],
                             // enableDebugLogging: false
                         echo "result: ${result}"
+                        echo "Scan ID: ${result.scanId}"
                     } catch (error) {
                         def result = error.policyEvaluation   
                         echo "result on exception: ${result}"
+                        echo "Scan ID: ${result.scanId}"
                     }
                 }
             }
